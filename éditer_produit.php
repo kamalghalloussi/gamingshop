@@ -75,17 +75,17 @@ if(isset($_SESSION["email"])){
                 </div>
                 <div class="mb-3">
                     <label for="nom_produit" class="form-label">Nom du produit</label>
-                    <input type="text" class="form-control" id="nom_du_produit" name="nom_du_produit" placeholder="<?= $details['nom_du_produit'] ?>" required>
+                    <input type="text" class="form-control" id="nom_du_produit" name="nom_du_produit" value="<?= $details['nom_du_produit'] ?>" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="description" class="form-label">Description</label>
-                    <textarea class="form-control" rows="5" id="description" name="description" placeholder="<?= $details['description'] ?>" required></textarea>
+                    <textarea class="form-control" rows="5" id="description" name="description" value="<?= $details['description'] ?>" required></textarea>
                 </div>
 
                 <div class="mb-3">
                     <label for="prix_produit" class="form-label">Prix du produit</label>
-                    <input type="number" step="0.01" class="form-control" id="prix_produit" name="prix_produit" placeholder="<?= $details['prix_produit'] ?>" required>
+                    <input type="number" step="0.01" class="form-control" id="prix_produit" name="prix_produit" value="<?= $details['prix_produit'] ?>" required>
                 </div>
 
                 <div class="mb-3">
@@ -98,12 +98,12 @@ if(isset($_SESSION["email"])){
 
                 <div class="mb-3">
                     <label for="date_dépot" class="form-label">Date de dépot du produit</label>
-                    <input type="date" class="form-control" id="date_dépot" name="date_dépot" required>
+                    <input type="date" class="form-control" id="date_dépot" name="date_dépot" value="<?= $details['date_dépot'] ?>"required >
                 </div>
 
                 <div class="mb-3">
                     <label for="image" class="form-label">Image du produit</label>
-                    <input type="file" class="form-control" id="image" name="image" required placeholder="<?= $details['image'] ?>">
+                    <input type="file" class="form-control" id="image" name="image" required value="<?= $details['image'] ?>">
                 </div>
 
                 <div class="d-flex justify-content-around">

@@ -27,7 +27,7 @@ if(isset($_SESSION["email"])){
             <div class="text-center mt-5">
                 <h1>Acceuil du site</h1>
                  <form method="post">
-                    <div class="text-center">
+                    <div class="  text-center">
                         <button id="btn-deconnexion" class="btn btn-danger" name="btn-deconnexion">Déconnexion</button>
                         <a href="inscription.php" class="mx-3 btn btn-info">Ajouter un administrateur</a>
 
